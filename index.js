@@ -130,7 +130,7 @@ client.on("guildCreate" , DarkMan => {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**Sun Music Server Support**`) 
-    .setThumbnail(`https://cdn.discordapp.com/avatars/806840212608909344/bf2d9853ffc2b48775c0cf9f8932a189.png?size=1024`)
+    .setThumbnail(`https://images-ext-1.discordapp.net/external/nPIJZsLW1UlUoZns_r79t4s5qF9Jn_N0dmAfG9OD6Ng/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/837868306131452004/6e757428e4b2aab2ece8f1ae225a58d6.png`)
     .setTimestamp()
     
     //send the Message
