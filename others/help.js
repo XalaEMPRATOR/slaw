@@ -19,7 +19,7 @@ module.exports = {
     .setAuthor(`Show Bot`, `https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
     .setDescription(`
 
-**User Commands**
+<a:emoji_21:842010213489180672> | **User Commands**
 \`${PREFIX}invite\` - \`${PREFIX}support\` - \`${PREFIX}about\`
 \`${PREFIX}ping\` - \`${PREFIX}prefix\` - \`${PREFIX}uptime\`
 \`${PREFIX}avatar\` - \`${PREFIX}se\` - \`${PREFIX}invites\`
