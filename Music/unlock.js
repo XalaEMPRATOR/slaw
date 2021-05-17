@@ -20,7 +20,7 @@ module.exports = {
    .setThumbnail(message.author.avatarURL({dynamic: "true"}))
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setDescription(`
-🔓 Unlocked Channel
+<a:emoji_18:839460239647834153> | Channel Has Been Unlocked
 Channel Name : <#${message.channel.id}>
 Locked By : <@${message.author.id}>
 Channel Status : Send Message
