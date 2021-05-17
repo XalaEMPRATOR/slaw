@@ -24,14 +24,14 @@ module.exports = {
 \`${PREFIX}ping\` - \`${PREFIX}prefix\` - \`${PREFIX}uptime\`
 \`${PREFIX}avatar\` - \`${PREFIX}se\` - \`${PREFIX}invites\`
 
-**Music Commands**
+<a:emoji_5:839440477917020160> | **Music Commands**
 \`${PREFIX}play\` - \`${PREFIX}skip\` - \`${PREFIX}skipto\`
 \`${PREFIX}stop\` - \`${PREFIX}volume\` - \`${PREFIX}nowplaying\`
 \`${PREFIX}shuffle\` - \`${PREFIX}search\` - \`${PREFIX}resume\`
 \`${PREFIX}remove\` - \`${PREFIX}queue\` - \`${PREFIX}filter\`
 \`${PREFIX}loop\` - \`${PREFIX}lyrics\` - \`${PREFIX}radio\`
 
-**Fun Commands**
+<a:emoji_20:842009758046486608>| **Moderation Commands**
 \`${PREFIX}lock\` - \`${PREFIX}unlock\` - \`${PREFIX}ban\`
 \`${PREFIX}unban\` - \`${PREFIX}slowmode\` - \`${PREFIX}giveaway\`
 
@@ -41,7 +41,7 @@ module.exports = {
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("#146DF6");
-   message.react("✅")
+   message.react("<a:emoji_11:839448910493253644>")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
