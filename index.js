@@ -144,7 +144,34 @@ client.on("guildCreate" , DarkMan => {
     DarkMan.leave();
   }
 })
+  if(message.content.startsWith(`${prefix}about`)){
+    //define saymsg
+    const saymsg = message.content.slice(Number(prefix.length) + 5)
+    //define embed
+    const embed = new Discord.MessageEmbed()
+    .setColor("RANDOM")
+    .setThumbnail(`https://cdn.discordapp.com/emojis/806266140699525120.gif`)
+    .setFooter(message.author.username, message.author.displayAvatarURL)
+    .setTimestamp()
+    .setDescription(`
+> **Server**
+${client.guilds.cache.size}
+> **Channel**
+${client.channels.cache.size}
+> **User**
+${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
+> **Owner Bot** :
+<@603886576279224340>
+> **Time Create** :
+5/1/2021
+> **Prefix Bot** :
+.
+`)
 
+    //send the Message
+    message.channel.send(embed)
+    message.react("<a:emoji_2:816354428859973643>")
+  }
 //command Handler DO NOT TOUCH
  const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(prefix)})\\s*`);
  if (!prefixRegex.test(message.content)) return;
