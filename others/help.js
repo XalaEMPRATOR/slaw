@@ -20,8 +20,8 @@ module.exports = {
     .setDescription(`
 
 <a:emoji_21:842010213489180672> | **User Commands**
-\`${PREFIX}invite\` - \`${PREFIX}support\` - \`${PREFIX}about\`
-\`${PREFIX}ping\` - \`${PREFIX}prefix\` - \`${PREFIX}uptime\`
+\`${PREFIX}invite\` - \`${PREFIX}support\` - \`${PREFIX}ping\` 
+\`${PREFIX}prefix\` - \`${PREFIX}uptime\`
 \`${PREFIX}avatar\` - \`${PREFIX}se\` - \`${PREFIX}invites\`
 
 <a:emoji_5:839440477917020160> | **Music Commands**
