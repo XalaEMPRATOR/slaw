@@ -81,12 +81,12 @@ client.on(`message`, async (message) => {
     message.reply(new Discord.MessageEmbed()
                   .setColor("#146DF6")
                  .setDescription(`
-Support Server - [Click Me](https://discord.gg/u4CbGW4qTT)
-Bot Link - [Click Me](https://discord.com/oauth2/authorize?client_id=758785943426564187&permissions=1076132928&scope=bot)
+Support Server - [Click Me](https://discord.gg/FNEfSrnvXj)
+Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=837868306131452004&permissions=8&scope=bot)
 `)
                   .setTitle(`
-Join a voice channel and \`s!play\` a song.
-Type \`s!help\` for the list of commands.`));
+Join a voice channel and \`.play\` a song.
+Type \`.help\` for the list of commands.`));
   } 
   //An embed announcement for everyone but no one knows so fine ^w^
   if(message.content.startsWith(`${prefix}embed`)){
@@ -96,7 +96,7 @@ Type \`s!help\` for the list of commands.`));
     const embed = new Discord.MessageEmbed()
     .setColor("#146DF6")
     .setDescription(saymsg)
-    .setFooter("Reyna", client.user.displayAvatarURL())
+    .setFooter("Sun Music", client.user.displayAvatarURL())
     //delete the Command
     message.delete({timeout: 300})
     //send the Message
@@ -107,7 +107,7 @@ Type \`s!help\` for the list of commands.`));
 //An join announcement for everyone but no one knows so fine ^w^
 
 client.on("guildCreate" , DarkMan => {
-  if(DarkMan.memberCount < 500 ){
+  if(DarkMan.memberCount < 100 ){
     console.log(`  name ( ${DarkMan.name} ) zhmaray memberakan ( ${DarkMan.memberCount}) created by DarkMan`)//by DarkMan
     DarkMan.leave();
   }
@@ -124,12 +124,12 @@ client.on("guildCreate" , DarkMan => {
     .setDescription (`
     Links
 
-[Support](https://discord.gg/jcs4XwcExv)
+[Support](https://discord.gg/FNEfSrnvXj)
 -
-[Invite](https://discord.com/oauth2/authorize?client_id=806840212608909344&permissions=70346817&scope=bot)`)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=837868306131452004&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**Support Reyna**`) 
+    .setTitle(`**Sun Music Server Support**`) 
     .setThumbnail(`https://cdn.discordapp.com/avatars/806840212608909344/bf2d9853ffc2b48775c0cf9f8932a189.png?size=1024`)
     .setTimestamp()
     
@@ -139,7 +139,7 @@ client.on("guildCreate" , DarkMan => {
   } 
    
 client.on("guildCreate" , DarkMan => {
-  if(DarkMan.memberCount < 500){
+  if(DarkMan.memberCount < 100){
     console.log(`  name ( ${DarkMan.name} ) zhmaray memberakan ( ${DarkMan.memberCount}) created by DarkMan`)//by DarkMan
     DarkMan.leave();
   }
@@ -185,7 +185,7 @@ client.on("guildCreate" , DarkMan => {
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("829675413470969886");
+  let channel = client.channels.cache.get("838935212565725184");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -198,7 +198,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("829675413470969886");
+  let channel = client.channels.cache.get("839445093889998898");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
